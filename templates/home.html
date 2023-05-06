@@ -22,7 +22,8 @@
      cover  </style>
 </head>
 <body>
-   <h1>Welcome {{company_name}} to my webpage❤️</h1> 
+  {% include 'navbar.html' %}
+  
     <img class = "img-fluid" src="static/banner.jpg" id="banner1" alt="here is the picture">
   <div class="text-center"><h2>About</h2>
   <p>
@@ -52,5 +53,6 @@ Nature has a profound impact on our wellbeing. Research has shown that being in 
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
     </div>
+  {% include 'footer.html' %}
 </body>
 </html>
